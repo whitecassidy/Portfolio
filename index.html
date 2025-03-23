@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karthick Raja - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <span>Karthick Raja</span>
+                <span class="logo-underline"></span>
+            </a>
+            
+            <nav class="desktop-nav">
+                <button class="nav-link" data-target="#about">About</button>
+                <button class="nav-link" data-target="#skills">Skills</button>
+                <button class="nav-link" data-target="#education-experience">Education</button>
+                <button class="nav-link" data-target="#projects">Projects</button>
+                <button class="nav-link" data-target="#certifications">Certifications</button>
+
+                <button class="nav-link" data-target="#contact">Contact</button>
+            </nav>
+            
+            <div class="nav-buttons">
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                    <span class="sr-only">Toggle theme</span>
+                </button>
+                
+                <button class="mobile-menu-button">
+                    <i class="fas fa-bars"></i>
+                    <span class="sr-only">Toggle menu</span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav">
+            <nav>
+                <button class="nav-link" data-target="#about">About</button>
+                <button class="nav-link" data-target="#skills">Skills</button>
+                <button class="nav-link" data-target="#education-experience">Education</button>
+                <button class="nav-link" data-target="#projects">Projects</button>
+                <button class="nav-link" data-target="#certifications">Certifications</button>
+                <button class="nav-link" data-target="#achievements">Achievements</button>
+                <button class="nav-link" data-target="#contact">Contact</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" style="display: flex; align-items: center; justify-content: center; text-align: center;">
+            <div class="grid-pattern"></div>
+            <div class="container">
+                <div class="animated-section fade-in">
+                    <div class="profile-image" style="margin: 0 auto;">
+                        <img src="images/profile.jpg" alt="Karthick Raja">
+                    </div>
+                    <div class="hero-content">
+                        <h1 class="gradient-text">Karthick Raja E</h1>
+                        <div class="tagline">
+                            <span>Data Analytics & Machine Learning Enthusiast</span>
+                            <i class="fas fa-sparkles"></i>
+                        </div>
+                        <p class="subtitle">
+                            Transforming data into actionable insights and building intelligent solutions
+                        </p>
+                    </div>
+                    <div class="social-links">
+                        <a href="mailto:e.karthickraja2004@gmail.com" class="btn btn-outline">
+                            <i class="fas fa-envelope"></i> Email
+                        </a>
+                        <a href="https://github.com/Karthickraja018" target="_blank" class="btn btn-outline">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="https://linkedin.com/in/karthick-raja-e-2004-aiml" target="_blank" class="btn btn-outline">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="https://leetcode.com/Karthick004" target="_blank" class="btn btn-outline">
+                            <i class="fas fa-code"></i> LeetCode
+                        </a>
+                    </div>
+                    <div class="resume-download">
+                        <a href="Karthick_Raja_Resume.pdf" download="Karthick_Raja_Resume.pdf" class="btn btn-primary">
+                            <span class="btn-content">
+                                <i class="fas fa-download"></i>
+                                <span>Download Resume</span>
+                            </span>
+                            <span class="btn-bg"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-fade"></div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="animated-section">
+                    <h2 class="section-title">
+                        <span class="gradient-text">About Me</span>
+                        <span class="title-underline"></span>
+                    </h2>
+                    <div class="about-content">
+                        <p class="about-text">
+                            Motivated Data Analytics & Machine Learning student with a strong foundation in Python, SQL, machine
+                            learning concepts, and data visualization. Passionate about leveraging data-driven insights to solve
+                            real-world problems and drive innovation.
+                        </p>
+                        <div class="interests">
+                            <h3>Areas of Interest</h3>
+                            <div class="badges">
+                                <span class="badge">Artificial Intelligence</span>
+                                <span class="badge">Machine Learning</span>
+                                <span class="badge">Data Analytics</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section section-alt">
+            <div class="container">
+                <div class="animated-section">
+                    <h2 class="section-title">
+                        <span class="gradient-text">Skills</span>
+                        <span class="title-underline"></span>
+                    </h2>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skills-column animated-section">
+                        <h3 class="skills-subtitle">
+                            <i class="fas fa-sparkles"></i>
+                            Technical Expertise
+                        </h3>
+                        <div class="skills-cards">
+                            <div class="skill-card" data-skills="Python,C,Java">
+                                <div class="skill-header">
+                                    <i class="fas fa-terminal"></i>
+                                    <h4>Programming</h4>
+                                </div>
+                                <div class="skill-content">
+                                    <span class="skill-badge">Python</span>
+                                    <span class="skill-badge">C</span>
+                                    <span class="skill-badge">Java</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-card" data-skills="MySQL">
+                                <div class="skill-header">
+                                    <i class="fas fa-database"></i>
+                                    <h4>Databases</h4>
+                                </div>
+                                <div class="skill-content">
+                                    <span class="skill-badge">MySQL</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-card" data-skills="Git,GitHub">
+                                <div class="skill-header">
+                                    <i class="fas fa-code-branch"></i>
+                                    <h4>Version Control</h4>
+                                </div>
+                                <div class="skill-content">
+                                    <span class="skill-badge">Git</span>
+                                    <span class="skill-badge">GitHub</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-card" data-skills="Pandas,NumPy,Matplotlib">
+                                <div class="skill-header">
+                                    <i class="fas fa-box"></i>
+                                    <h4>Libraries</h4>
+                                </div>
+                                <div class="skill-content">
+                                    <span class="skill-badge">Pandas</span>
+                                    <span class="skill-badge">NumPy</span>
+                                    <span class="skill-badge">Matplotlib</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-column animated-section">
+                        <h3 class="skills-subtitle">
+                            <i class="fas fa-sparkles"></i>
+                            Additional Skills
+                        </h3>
+                        <div class="skills-cards">
+                            <div class="skill-card" data-skills="Supervised Learning,Unsupervised Learning,Neural Networks">
+                                <div class="skill-header">
+                                    <i class="fas fa-microchip"></i>
+                                    <h4>Machine Learning</h4>
+                                </div>
+                                <div class="skill-content">
+                                    <span class="skill-badge">Supervised Learning</span>
+                                    <span class="skill-badge">Unsupervised Learning</span>
+                                    <span class="skill-badge">Neural Networks</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-card" data-skills="Data Cleaning,Visualization,Statistical Analysis">
+                                <div class="skill-header">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <h4>Data Analysis</h4>
+                                </div>
+                                <div class="skill-content">
+                                    <span class="skill-badge">Data Cleaning</span>
+                                    <span class="skill-badge">Visualization</span>
+                                    <span class="skill-badge">Statistical Analysis</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-card" data-skills="VS Code,MS Excel,Postman">
+                                <div class="skill-header">
+                                    <i class="fas fa-wrench"></i>
+                                    <h4>Tools</h4>
+                                </div>
+                                <div class="skill-content">
+                                    <span class="skill-badge">VS Code</span>
+                                    <span class="skill-badge">MS Excel</span>
+                                    <span class="skill-badge">Postman</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-card" data-skills="Adaptability,Time Management,Collaboration">
+                                <div class="skill-header">
+                                    <i class="fas fa-users"></i>
+                                    <h4>Soft Skills</h4>
+                                </div>
+                                <div class="skill-content">
+                                    <span class="skill-badge">Adaptability</span>
+                                    <span class="skill-badge">Time Management</span>
+                                    <span class="skill-badge">Collaboration</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Experience Section -->
+        <section id="education-experience" class="section">
+            <div class="container">
+                <div class="animated-section">
+                    <h2 class="section-title">
+                        <span class="gradient-text">Education & Experience</span>
+                        <span class="title-underline"></span>
+                    </h2>
+                </div>
+
+                <div class="tabs">
+                    <div class="tab-list">
+                        <button class="tab-button active" data-tab="education">
+                            <i class="fas fa-graduation-cap"></i> Education
+                        </button>
+                        <button class="tab-button" data-tab="experience">
+                            <i class="fas fa-briefcase"></i> Experience
+                        </button>
+                    </div>
+
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="education-tab">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-marker">
+                                        <i class="fas fa-school"></i>
+                                    </div>
+                                    <div class="timeline-content">
+                                        <div class="timeline-header">
+                                            <h3>Bachelor of Technology in AI & ML</h3>
+                                            <span class="timeline-date">2022-2026</span>
+                                        </div>
+                                        <p class="timeline-subtitle">SNS College of Technology</p>
+                                        <p class="timeline-description">CGPA: 8.7 (4th semester)</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <div class="timeline-marker">
+                                        <i class="fas fa-school"></i>
+                                    </div>
+                                    <div class="timeline-content">
+                                        <div class="timeline-header">
+                                            <h3>Higher Secondary Education</h3>
+                                            <span class="timeline-date">2019-2022</span>
+                                        </div>
+                                        <p class="timeline-subtitle">DSM Higher Secondary School</p>
+                                        <p class="timeline-description">Percentage: 89%</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <div class="timeline-marker">
+                                        <i class="fas fa-school"></i>
+                                    </div>
+                                    <div class="timeline-content">
+                                        <div class="timeline-header">
+                                            <h3>SSLC (10th Grade)</h3>
+                                            <span class="timeline-date">2019</span>
+                                        </div>
+                                        <p class="timeline-subtitle">DSM Higher Secondary School</p>
+                                        <p class="timeline-description">Percentage: 89%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="experience-tab">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-marker">
+                                        <i class="fas fa-briefcase"></i>
+                                    </div>
+                                    <div class="timeline-content">
+                                        <div class="timeline-header">
+                                            <h3>Machine Learning Intern</h3>
+                                            <span class="timeline-date">Mar 2024 - Apr 2024</span>
+                                        </div>
+                                        <p class="timeline-subtitle">Cognifyz Technology</p>
+                                        <div class="timeline-description">
+                                            <ul>
+                                                <li>Assisted in building and optimizing machine learning models for real-world applications.</li>
+                                                <li>Preprocessed large datasets, enhancing data quality and feature selection.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section section-alt">
+            <div class="container">
+                <div class="animated-section">
+                    <h2 class="section-title">
+                        <span class="gradient-text">Projects</span>
+                        <span class="title-underline"></span>
+                    </h2>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card animated-section">
+                        <div class="project-image">
+                            <img src="images/data-viz-project.png" alt="Data Visualization AI">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="project-header">
+                            <h3>Data Visualization AI</h3>
+                            <p class="project-date">Nov 2024 - Dec 2024</p>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-technologies">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">Generative AI</span>
+                                <span class="tech-badge">Streamlit</span>
+                                <span class="tech-badge">Pandas</span>
+                                <span class="tech-badge">Matplotlib</span>
+                            </div>
+                            <div class="project-description">
+                                <p>Developed an AI-powered tool for generating interactive and insightful data visualizations.</p>
+                                <div class="hidden-description">
+                                    <p>Integrated Pandas, Matplotlib, and Streamlit to enhance user experience and real-time analysis.</p>
+                                    <p>Implemented natural language processing to convert text descriptions into appropriate chart types.</p>
+                                </div>
+                                <button class="show-more-btn">
+                                    <span>Show more</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Karthickraja018/DataViz-Flask.git" target="_blank" class="btn btn-outline btn-sm">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card animated-section">
+                        <div class="project-image">
+                            <img src="images/virtual-mouse-project.png" alt="Virtual Mouse using Gestures">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="project-header">
+                            <h3>Virtual Mouse using Gestures</h3>
+                            <p class="project-date">April 2024 - May 2024</p>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-technologies">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">OpenCV</span>
+                                <span class="tech-badge">Mediapipe</span>
+                                <span class="tech-badge">Computer Vision</span>
+                            </div>
+                            <div class="project-description">
+                                <p>Designed a gesture-based virtual mouse using OpenCV.</p>
+                                <div class="hidden-description">
+                                    <p>Implemented hand-tracking algorithms to enable touch-free computer interaction.</p>
+                                    <p>Created custom gesture recognition for various mouse operations like click, scroll, and drag.</p>
+                                </div>
+                                <button class="show-more-btn">
+                                    <span>Show more</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Karthickraja018/Virtual-mouse.git" target="_blank" class="btn btn-outline btn-sm">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card animated-section">
+                        <div class="project-image">
+                            <img src="images/jarvis-project.png" alt="Jarvis-Inspired Virtual Assistant">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="project-header">
+                            <h3>Jarvis-Inspired Virtual Assistant</h3>
+                            <p class="project-date">February 2024</p>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-technologies">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">Speech Recognition</span>
+                                <span class="tech-badge">NLP</span>
+                                <span class="tech-badge">APIs</span>
+                            </div>
+                            <div class="project-description">
+                                <p>Created a desktop assistant for voice command-based automation and real-time information retrieval.</p>
+                                <div class="hidden-description">
+                                    <p>Integrated speech recognition and AI-based automation features.</p>
+                                    <p>Implemented custom modules for weather updates, web searches, and system control.</p>
+                                </div>
+                                <button class="show-more-btn">
+                                    <span>Show more</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Karthickraja018/Jarvis.git" target="_blank" class="btn btn-outline btn-sm">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <div class="animated-section">
+                    <h2 class="section-title">
+                        <span class="gradient-text">
+                            <i class="fas fa-book-open"></i>
+                            Certifications
+                        </span>
+                        <span class="title-underline"></span>
+                    </h2>
+                </div>
+
+                <div class="certifications-grid">
+                    <div class="certification-card animated-section">
+                        <div class="certification-header">
+                            <h3>DBMS Course</h3>
+                            <p>Infosys Springboard</p>
+                        </div>
+                        <div class="certification-content">
+                            <span class="certification-date">May 2024</span>
+                        </div>
+                    </div>
+
+                    <div class="certification-card animated-section">
+                        <div class="certification-header">
+                            <h3>Computer Vision Course</h3>
+                            <p>NPTEL</p>
+                        </div>
+                        <div class="certification-content">
+                            <span class="certification-date">July-October 2024</span>
+                        </div>
+                    </div>
+
+                    <div class="certification-card animated-section">
+                        <div class="certification-header">
+                            <h3>Machine Learning Course</h3>
+                            <p>Infosys Springboard</p>
+                        </div>
+                        <div class="certification-content">
+                            <span class="certification-date">July 2024</span>
+                        </div>
+                    </div>
+
+                    <div class="certification-card animated-section">
+                        <div class="certification-header">
+                            <h3>Generative AI Introduction</h3>
+                            <p>Skillible</p>
+                        </div>
+                        <div class="certification-content">
+                            <span class="certification-date">July-August 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="animated-section">
+                    <h2 class="section-title">
+                        <span class="gradient-text">Get In Touch</span>
+                        <span class="title-underline"></span>
+                    </h2>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info animated-section">
+                        <div class="contact-card">
+                            <div class="contact-items">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <p class="contact-label">Email</p>
+                                        <p class="contact-value">e.karthickraja2004@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fab fa-linkedin"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <p class="contact-label">LinkedIn</p>
+                                        <a href="https://linkedin.com/in/karthick-raja-e-2004-aiml" target="_blank" class="contact-link">
+                                            linkedin.com/in/karthick-raja-e-2004-aiml
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fab fa-github"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <p class="contact-label">GitHub</p>
+                                        <a href="https://github.com/Karthickraja018" target="_blank" class="contact-link">
+                                            github.com/Karthickraja018
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-code"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <p class="contact-label">LeetCode</p>
+                                        <a href="https://leetcode.com/Karthick004" target="_blank" class="contact-link">
+                                            leetcode.com/Karthick004
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container animated-section">
+                        <div class="contact-form-card">
+                            <div class="form-header">
+                                <h3>Send a Message</h3>
+                                <p>Feel free to reach out with any questions or opportunities.</p>
+                            </div>
+                            <form id="contact-form" class="contact-form">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="name">Name</label>
+                                        <input type="text" id="name" placeholder="Your name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" id="email" placeholder="Your email" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" id="subject" placeholder="Subject of your message" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" placeholder="Your message" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-full">
+                                    <i class="fas fa-paper-plane"></i> Send Message
+                                </button>
+                            </form>
+                            <div id="form-success" class="form-success">
+                                <div class="success-icon">
+                                    <i class="fas fa-paper-plane"></i>
+                                </div>
+                                <h3>Message Sent!</h3>
+                                <p>Thank you for reaching out. I'll get back to you as soon as possible.</p>
+                                <button class="btn btn-outline" id="send-another">Send Another Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-icons">
+                    <a href="mailto:e.karthickraja2004@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                        <span class="sr-only">Email</span>
+                    </a>
+                    <a href="https://github.com/Karthickraja018" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <span class="sr-only">GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/karthick-raja-e-2004-aiml" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        <span class="sr-only">LinkedIn</span>
+                    </a>
+                </div>
+                <p class="copyright">
+                    © <span id="current-year"></span> Karthick Raja E. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scroll-to-top" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+        <span class="sr-only">Scroll to top</span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
